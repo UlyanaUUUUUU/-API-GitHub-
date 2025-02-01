@@ -1,0 +1,110 @@
+.body {
+    background: #C4C4C4;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search {
+    display: grid;
+    width: 500px;
+
+}
+
+.search_line {
+    width: 100%;
+}
+
+.search_input {
+    width: 493px;
+    font-size: 48px;
+}
+
+.users_wrapper {
+    background-color: palevioletred;
+    display: none;
+
+}
+
+.users {
+    padding: 0;
+    margin: 0;
+    background-color: #E3E3E3;
+}
+
+.user {
+    font-size: 30px;
+    padding-bottom: 9px;
+    padding-left: 13px;
+    border: black solid 1px;
+    list-style-type: none;
+
+}
+
+.user:hover {
+    background-color: #65CDF9;
+}
+
+.list {
+    padding-top: 45px;
+    width: 500px;
+
+}
+
+.save_list {
+    margin: 0;
+    padding: 0;
+    background-color: #E27BEB;
+    width: 501px;
+}
+
+.save_user {
+    padding: 6px 14px;
+    padding-right: 33px;
+    border: black solid 1px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.close_button {
+    content: "";
+    position: relative;
+    display: block;
+    width: 42px;
+    height: 38px;
+    background-color: #E27BEB;
+    top: 18px;
+    border: 0;
+}
+
+.close_button:hover {
+    transition-duration: 1s;
+    opacity: 0.5;
+    transform: scale(1.1);
+    rotate: 5deg;
+}
+
+.close_button::before {
+    content: "";
+    display: block;
+    position: relative;
+    left: 13.5px;
+    width: 4px;
+    height: 57px;
+    background-color: red;
+    rotate: 135deg;
+    top: -9px;
+}
+
+.close_button::after {
+    content: "";
+    display: block;
+    position: relative;
+    left: 13.5px;
+    width: 4px;
+    height: 57px;
+    background-color: red;
+    rotate: 45deg;
+    top: -66px;
+}
